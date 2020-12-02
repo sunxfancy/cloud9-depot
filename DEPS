@@ -73,10 +73,10 @@ hooks = [
     "pattern": ".",
     "action": ["python", "src/build/gyp_cloud9"],
   },
-  {
-    "pattern": ".",
-    "action": ["src/testing_targets/build/gyp_testing_targets"],
-  },
+  #{
+  #  "pattern": ".",
+  #  "action": ["src/testing_targets/build/gyp_testing_targets"],
+  #},
 ]
 
 ### Local variables:
