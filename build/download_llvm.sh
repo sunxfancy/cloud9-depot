@@ -187,7 +187,7 @@ if [[ -n "${bootstrap}" ]]; then
   fi
   cd -
   export CC="${PWD}/${LLVM_BOOTSTRAP_DIR}/Release+Asserts/bin/clang"
-  export CXX="${PWD}/${LLVM_BOOTSTRAP_DIR}/Release+Asserts/bin/clang++"
+  export CXX="${PWD}/${LLVM_BOOTSTRAP_DIR}/Release+Asserts/bin/clang++ -I/usr/include/x86_64-linux-gnu/c++/5"
   echo "Building final compiler"
 fi
 
